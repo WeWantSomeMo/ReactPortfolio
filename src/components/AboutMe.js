@@ -1,4 +1,5 @@
-
+import headshot from "../assets/headshot.jpg"
+import '../../src/App.css';
 
 const AboutMe = () => {
     return (
@@ -8,7 +9,7 @@ const AboutMe = () => {
         <div className='container about_container'>
           <div className='about_me'>
             <div className='headshot'>
-              {/* <img src={Headshot} alt = "Headshot" /> */}
+              <img id="me" src={headshot} alt = "Headshot" />
             </div>
           </div>
             <div className='This-is-me'>

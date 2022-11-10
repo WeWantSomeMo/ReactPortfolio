@@ -7,14 +7,14 @@ import { Link } from "react-router-dom";
 export default function Navigation(){
 
     return(
-        <Navbar bg="primary" variant="dark">
+        <Navbar bg="danger" variant="dark">
         <Container>
           <Navbar.Brand href="#home">Mason Anthony Ortiz Portfolio</Navbar.Brand>
           <Nav className="me-auto">
-            <Link to='/'>Home</Link>
-            <Link to='/projects'>Projects</Link>
-            <Link to='/contact'>Contact</Link>
-            <Link to='/resume'>Resume</Link>
+            <Link className="custom-link-style" to='/'>Home</Link>
+            <Link className="custom-link-style" to='/projects'>Projects</Link>
+            <Link className="custom-link-style" to='/contact'>Contact</Link>
+            <Link className="custom-link-style" to='/resume'>Resume</Link>
           </Nav>
         </Container>
       </Navbar>

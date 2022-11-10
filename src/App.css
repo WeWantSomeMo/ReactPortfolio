@@ -1,10 +1,40 @@
 .App {
   text-align: center;
+  background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .CLASSNAME */
+.custom-link-style {
+  color: #373737;
+  text-decoration: underline;
+  padding: 5px;
+}
+
+#about {
+  color: #119822;
+}
+
+.sub-title {
+  color:#119822;
+}
+
+.ReadMe {
+  color: #119822;
+}
+/* ID */
+#me {
+ height: 50%;
+ width: 50%;
+}
+
+#weather {
+  height: 100%;
+  width: 100%;
+}
+
+#giving {
+  height: 100%;
+  width: 100%;
 }
 
 @media (prefers-reduced-motion: no-preference) {

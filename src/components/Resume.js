@@ -1,19 +1,16 @@
-import '../../src/App.css';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 import ResumePic from "../assets/Resume.png"
 
 export default function Resume(){
-
-    return(
-        <>
-        <h2>Resume</h2>
-            <div className='container about_container'>
-                <div className='Resume'>
-                    <div className='screenshot'>
-                        <img id="Resume" src={ResumePic} alt = "Resume" />
-                    </div>
-                </div>
-            </div>
-        <br></br>
-        </>
-    )
+  return(
+    <Container className='setCustomHeight'>
+      <Row className="mt-5 mb-3">
+        <Col>
+          <img id="Resume" src={ResumePic} alt = "Resume" />
+        </Col>
+      </Row>
+    </Container>
+  )
 }

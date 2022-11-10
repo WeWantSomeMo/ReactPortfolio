@@ -1,4 +1,3 @@
-import '../../src/App.css';
 import ThanksforGivingPic from "../assets/ThanksforGiving.png"
 
 
@@ -11,7 +10,7 @@ export default function ThanksforGiving(){
         <div className='container about_container'>
             <div className='ThanksforGiving'>
             <div className='screenshot'>
-                
+
                 <img id="giving" src={ThanksforGivingPic} alt = "ThanksforGiving" />
 
                 <a href="https://github.com/WeWantSomeMo/thanks-for-giving">Thanks For Giving on Github</a>
@@ -54,6 +53,6 @@ export default function ThanksforGiving(){
             </div>
             </div>
         </>
-    
+
     )
 }

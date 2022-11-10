@@ -1,4 +1,3 @@
-import '../../src/App.css';
 import WeatherBoiPic from "../assets/WeatherBoi.png"
 
 
@@ -34,6 +33,6 @@ export default function WeatherBoi(){
             </div>
             </div>
         </>
-    
+
     )
 }

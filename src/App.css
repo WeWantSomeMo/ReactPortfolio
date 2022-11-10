@@ -3,6 +3,21 @@
   background-color: black;
 }
 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
 /* .CLASSNAME */
 .custom-link-style {
   color: #373737;
@@ -10,8 +25,8 @@
   padding: 5px;
 }
 
-#about {
-  color: #119822;
+.setCustomHeight {
+  min-height: 100vh;
 }
 
 .sub-title {
@@ -22,9 +37,18 @@
   color: #119822;
 }
 /* ID */
+
+#about {
+  color: #119822;
+}
+
 #me {
- height: 50%;
- width: 50%;
+ height: 30%;
+ width: 30%;
+}
+
+#Resume{
+  width: 75%;
 }
 
 #weather {
@@ -47,26 +71,10 @@
   width: 30%;
 }
 
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {

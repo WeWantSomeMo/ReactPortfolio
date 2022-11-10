@@ -1,4 +1,3 @@
-import '../../src/App.css';
 import showbiz_baby_pic from "../assets/showbiz-baby.png"
 
 
@@ -34,6 +33,6 @@ export default function Showbiz(){
             </div>
             </div>
         </>
-    
+
     )
 }

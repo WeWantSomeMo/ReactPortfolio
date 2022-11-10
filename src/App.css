@@ -32,10 +32,21 @@
   width: 100%;
 }
 
+#weather2 {
+  height: 30%;
+  width: 30%
+}
+
 #giving {
   height: 100%;
   width: 100%;
 }
+
+#giving2 {
+  height: 30%;
+  width: 30%;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

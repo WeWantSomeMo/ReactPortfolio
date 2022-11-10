@@ -17,7 +17,9 @@ const AboutMe = () => {
                 <br></br>
                 Graduated with a Bachelor's in Acting, Directing, and Design from TAMUCC with a certification in Fullstack Web Development from SMU.
                 <br></br>
-                This includes skills in Javascript, Html, React, NoSql, Node.js, and Css.</article>
+                This includes skills in Javascript, Html, React, NoSql, Node.js, and Css.
+                <br></br> <br></br>
+                </article>
             </div>
           </div>
       </section>  

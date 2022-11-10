@@ -9,7 +9,8 @@ import Projects from './components/Projects'
 import WeatherBoi from './components/WeatherBoi';
 import Resume from './components/Resume';
 import ThanksforGiving from './components/ThanksforGiving';
-
+import Showbiz from './components/Showbiz-Baby';
+import ContactForm from './ContactForm';
 
 
 
@@ -20,14 +21,17 @@ function App() {
       <Navigation />
         <Routes>
           <Route path="/" element= {<About/>} />
-          <Route path="/projects" element= {<Projects/>}></Route>            
+          <Route path="/projects" element = {<Projects/>}></Route>            
           <Route path="/projects/weatherboi" element = {<WeatherBoi/>}></Route>
-          <Route path="/projects/thanksforgiving" element ={<ThanksforGiving/>}></Route>
-          {/* <Route path="/projects/showbiz-baby" element = {<ProjectDetails/>}></Route> */}
+          <Route path="/projects/thanksforgiving" element = {<ThanksforGiving/>}></Route>
+          <Route path="/projects/showbiz-baby" element = {<Showbiz/>}></Route>
           <Route path="/resume" element= {<Resume/>} />
           <Route path="/contact" element= {<Contact/>} />
         </Routes>
         </BrowserRouter> 
+        <div className="App">                 
+        <ContactForm />           
+    </div>
         <Footer/>
     </div>
   );

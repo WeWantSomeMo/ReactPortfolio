@@ -3,14 +3,14 @@ import './App.css';
 import Navigation from './components/Navigation';
 import { BrowserRouter, Routes, Route, } from "react-router-dom";
 import About from './components/AboutMe';
-import Contact from './components/Contact.js';
+// import Contact from './components/Contact.js';
 import Footer from './components/Footer'
 import Projects from './components/Projects'
 import WeatherBoi from './components/WeatherBoi';
 import Resume from './components/Resume';
 import ThanksforGiving from './components/ThanksforGiving';
 import Showbiz from './components/Showbiz-Baby';
-import ContactForm from './ContactForm';
+// import ContactForm from './ContactForm';
 
 
 
@@ -26,11 +26,11 @@ function App() {
           <Route path="/projects/thanksforgiving" element = {<ThanksforGiving/>}></Route>
           <Route path="/projects/showbiz-baby" element = {<Showbiz/>}></Route>
           <Route path="/resume" element= {<Resume/>} />
-          <Route path="/contact" element= {<Contact/>} />
+          {/* <Route path="/contact" element= {<Contact/>} /> */}
         </Routes>
         </BrowserRouter> 
         <div className="App">                 
-        <ContactForm />           
+        {/* <ContactForm />            */}
     </div>
         <Footer/>
     </div>

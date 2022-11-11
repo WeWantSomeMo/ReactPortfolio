@@ -12,7 +12,7 @@ function CollapsibleExample() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-          <Link className="custom-link-style" to='/ReactPortfolio'>Home</Link>
+          <Link className="custom-link-style" to='/home'>Home</Link>
           <Link className="custom-link-style" to='/projects'>Projects</Link>
           <Link className="custom-link-style" to='/contact'>Contact</Link>
           <Link className="custom-link-style" to='/resume'>Resume</Link>

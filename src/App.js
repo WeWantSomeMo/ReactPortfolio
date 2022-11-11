@@ -19,6 +19,7 @@ function App() {
       <Navigation />
         <Routes>
           <Route path="/ReactPortfolio" element= {<About/>} />
+          <Route path="/home" element= {<About/>} />
           <Route path="/projects" element = {<Projects/>}></Route>
           <Route path="/projects/weatherboi" element = {<WeatherBoi/>}></Route>
           <Route path="/projects/thanksforgiving" element = {<ThanksforGiving/>}></Route>
